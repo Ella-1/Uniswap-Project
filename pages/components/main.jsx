@@ -4,7 +4,7 @@ import { RiSettings3Fill } from "react-icons/ri";
 import { AiOutlineDown } from "react-icons/ai";
 import Image from "next/image";
 import ethLogo from "../assets/eth.png";
-import { TransactionContext } from "../context/tansactionContext";
+import { TransactionContext } from "../../context/tansactionContext";
 
 const style = {
   wrapper: `w-screen flex items-center justify-center mt-14`,
@@ -37,8 +37,7 @@ const customStyles = {
 };
 
 
-
-export const Main = () => {
+ const Main = () => {
   const { formData, handleChange, sendTransaction } = useContext(TransactionContext);
 
   const handleSubmit = async () => {
@@ -95,3 +94,5 @@ export const Main = () => {
     </div>
   );
 };
+
+export default Main

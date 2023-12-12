@@ -6,7 +6,7 @@ import { HiOutlineDotsVertical } from "react-icons/hi";
 import Image from "next/image";
 import uniswapLogo from  '../assets/uniswap.png'
 import ethLogo from '../assets/eth.png'
-import { TransactionContext } from "../context/tansactionContext";
+import { TransactionContext } from "../../context/tansactionContext";
 
 const style = {
   wrapper: `p-4 w-screen flex justify-between items-center`,
