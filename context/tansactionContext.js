@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { contractABI, contractAddress } from '../lib/constants'
-import { ethers } from 'ethers'
+import ethers from 'ethers'
 import { client } from '../lib/sanityClients'
 import { useRouter } from 'next/router'
 
