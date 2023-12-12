@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import { client } from '@/lib/sanityClients'
+import { client } from '../lib/sanityClients'
 import { useContext } from 'react'
-import { TransactionContext } from '@/context/tansactionContext'
+import { TransactionContext } from '../context/tansactionContext'
 import Image from 'next/image'
-import ethLogo from '@/pages/assets/eth.png'
+import ethLogo from '../assets/eth.png'
 import { FiArrowUpRight } from 'react-icons/fi'
 
 const style = {

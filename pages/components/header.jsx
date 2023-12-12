@@ -4,9 +4,10 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { AiOutlineDown } from "react-icons/ai";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 import Image from "next/image";
-import uniswapLogo from  '@/pages/assets/uniswap.png'
-import ethLogo from "@/pages/assets/eth.png";
-import { TransactionContext} from "@/context/tansactionContext";
+import uniswapLogo from  '../assets/uniswap.png'
+import ethLogo from '../assets/eth.png'
+import { TransactionContext } from "../context/tansactionContext";
+
 const style = {
   wrapper: `p-4 w-screen flex justify-between items-center`,
   headerLogo: `flex w-1/4 items-center justify-start`,

@@ -3,8 +3,8 @@ import React, { useContext } from "react";
 import { RiSettings3Fill } from "react-icons/ri";
 import { AiOutlineDown } from "react-icons/ai";
 import Image from "next/image";
-import ethLogo from "@/pages/assets/eth.png";
-import { TransactionContext } from "@/context/tansactionContext";
+import ethLogo from "../assets/eth.png";
+import { TransactionContext } from "../context/tansactionContext";
 
 const style = {
   wrapper: `w-screen flex items-center justify-center mt-14`,
